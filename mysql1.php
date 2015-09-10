@@ -1,11 +1,9 @@
 <?php
 
-/*
-id int not null primary key
-name text
-begin_date datetime // дата начала события
-end_date datetime // дата окончания события
-*/
+
+#
+# таблица с данными в файле job_events.sql
+#
 
 $lnk = mysql_connect('localhost', 'root', '') or die ('Not connected : ' . mysql_error());
 mysql_select_db('job', $lnk) or die ('Cant select db : ' . mysql_error());
